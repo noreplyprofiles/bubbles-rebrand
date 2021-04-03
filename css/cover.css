@@ -1,3 +1,16 @@
+.cover {
+    background-image: url('assets/cover.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    height: 200%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -100;
+    transform: translate3d(0px, -24.8566%, 0px)
+}
+
 .title {
     color: white;
     font-size: 100px;
@@ -7,7 +20,7 @@
 
 .subtitle {
     color: white;
-    font-size: 75px;
+    font-size: 60px;
     text-align: center;
     transform: translateY(50%);
 }
