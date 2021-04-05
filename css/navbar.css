@@ -12,6 +12,8 @@ body {
 
 header {
     background: white;
+    position: fixed;
+    width: 100%;
 }
 
 header::after {
